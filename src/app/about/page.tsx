@@ -9,7 +9,7 @@ const page = () => {
                     <li><a href="/about" className="text-gray-700 font-semibold">About</a></li>
                     <li><a href="/services" className="text-gray-700 font-semibold">Projects</a></li>
                     <li><a href="/contact" className="text-gray-700 font-semibold">Service</a></li>
-                    <li><a href="/contact" className="text-gray-700 font-semibold">Career</a></li>
+                    <li><a href="/career" className="text-gray-700 font-semibold">Career</a></li>
                 </ul>
 
                 <div className="flex items-center border border-[#5A5A5A] rounded-md overflow-hidden w-[25vw] mr-[5vw] rounded-r-full rounded-l-full">
