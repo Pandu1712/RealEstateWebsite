@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Team from "./../../components/team"
 const page = () => {
     return (
         <>
@@ -117,14 +117,14 @@ const page = () => {
                 <h3 className="text-[5vh] text-white font-bold">OUR TEAM </h3>
             </div>
 
-            <div className="relative w-full min-h-screen bg-white overflow-hidden">
-      {/* Background trapezoid shape */}
+            {/* <div className="relative w-full min-h-screen bg-white overflow-hidden">
+     
       <div className="absolute top-0 left-0 w-full h-[500px] bg-[#074654] z-0 clip-diagonal" />
 
-      {/* Card container */}
+     
       <div className="relative z-10 flex flex-col items-center pt-[10vh]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[5vw] px-[5vw]">
-          {/* Card 1 */}
+     
           <div className="rounded-3xl shadow-2xl bg-white w-[300px] md:w-[350px] flex flex-col items-center">
             <img
               src="/image1.jpg"
@@ -145,7 +145,7 @@ const page = () => {
             </a>
           </div>
 
-          {/* Card 2 */}
+        
           <div className="rounded-3xl shadow-2xl bg-white w-[300px] md:w-[350px] flex flex-col items-center">
             <img
               src="/image2.jpg"
@@ -168,8 +168,15 @@ const page = () => {
         </div>
       </div>
     </div>
+ */}
 
-        </>
+      <Team />
+
+            
+
+
+        </> 
+        
     )
 }
 

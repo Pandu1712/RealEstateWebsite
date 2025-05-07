@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/header'
+import Client from '../components/client'
 
 const HomePage = () => {
     return (
@@ -257,7 +257,7 @@ const HomePage = () => {
             <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
                 <h3 className="text-6xl text-white font-bold">OUR  HAPPY CLIENTS </h3>
             </div>
-            <Header />
+            <Client />
             
 
         </>
