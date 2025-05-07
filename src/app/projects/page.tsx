@@ -3,28 +3,9 @@ import React from 'react'
 const page = () => {
     return (
         <>
-            <div className="navbar flex justify-between items-center px-[3vw] py-[1vh] bg-[#FBF5DF] h-[10vh] w-full">
-                <ul className="flex space-x-[1.5vw] ml-[5vw]">
-                    <li><a href="/" className="text-gray-700 font-semibold">Home</a></li>
-                    <li><a href="/about" className="text-gray-700 font-semibold">About</a></li>
-                    <li><a href="/services" className="text-gray-700 font-semibold">Projects</a></li>
-                    <li><a href="/contact" className="text-gray-700 font-semibold">Service</a></li>
-                    <li><a href="/career" className="text-gray-700 font-semibold">Career</a></li>
-                </ul>
+            
 
-                <div className="flex items-center border border-[#5A5A5A] rounded-md overflow-hidden w-[25vw] mr-[5vw] rounded-r-full rounded-l-full">
-                    <input
-                        type="text"
-                        placeholder="Search by Keyword"
-                        className="px-[1vw] py-[0.5vh] outline-none"
-                    />
-                    <button className="bg-[#1C4D74] text-white px-[1vw] py-[0.5vh] hover:bg-[#1C4D74] rounded-r-full ml-[10vw]">
-                        🔍
-                    </button>
-                </div>
-            </div>
-
-            <div className="bg-[#061F3E] w-full h-[100px]  flex items-center justify-center">
+            <div className="bg-[#061F3E] w-full h-[100px]  flex items-center justify-center mt-[10vh]">
                 <h3 className="text-6xl text-white font-bold">PROJECTS</h3>
             </div>
             <div className="relative w-full h-100px]">

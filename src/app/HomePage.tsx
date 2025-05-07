@@ -1,29 +1,11 @@
 import React from 'react'
+import Header from '../components/header'
 
 const HomePage = () => {
     return (
         <>
-            <div className="navbar flex justify-between items-center px-[3vw] py-[1vh] bg-[#FBF5DF] h-[10vh] w-full">
-                <ul className="flex space-x-[1.5vw] ml-[5vw]">
-                    <li><a href="/" className="text-gray-700 font-semibold">Home</a></li>
-                    <li><a href="/about" className="text-gray-700 font-semibold">About</a></li>
-                    <li><a href="/projects" className="text-gray-700 font-semibold">Projects</a></li>
-                    <li><a href="/contact" className="text-gray-700 font-semibold">Service</a></li>
-                    <li><a href="/career" className="text-gray-700 font-semibold">Career</a></li>
-                </ul>
-
-                <div className="flex items-center border border-[#5A5A5A] rounded-md overflow-hidden w-[25vw] mr-[5vw] rounded-r-full rounded-l-full">
-                    <input
-                        type="text"
-                        placeholder="Search by Keyword"
-                        className="px-[1vw] py-[0.5vh] outline-none"
-                    />
-                    <button className="bg-[#1C4D74] text-white px-[1vw] py-[0.5vh] hover:bg-[#1C4D74] rounded-r-full ml-[10vw]">
-                        🔍
-                    </button>
-                </div>
-            </div>
-            <div className="relative w-full h-100px]">
+           
+            <div className="relative w-full h-100px mt-[10vh]">
                 <img src="image 5.jpg" alt="Example" className="w-full h-[850px] object-cover" />
 
                 <div className="absolute top-[100px] left-0 w-full text-center bg-blur bg-opacity-40 backdrop-blur-lg p-4">
@@ -38,18 +20,18 @@ const HomePage = () => {
             </div>
 
 
-            <div className='grid grid-cols-3 gap-4 bg-white h-[800px] mt-[-10px] '>
+            <div className='grid grid-cols-3 gap-1 bg-white  mt-[-10px] h-screen '>
 
 
-                <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[550px] w-[400px]">
-                        <img src="image 6.jpg" alt="Example" className="w-[400px] h-[400px] rounded-t-2xl" />
+                <div className="flex flex-col items-center justify-center mt-[-450px]">
+                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
+                        <img src="image 6.jpg" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
 
-                        <h3 className="text-2xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
+                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-10px ">
                             Building Construction
                         </h3>
 
-                        <h1 className="text-gray-700 text-2xl text-center mt-4">
+                        <h1 className="text-gray-700 text-xl text-center mt-4">
                             "From vision to reality,<br />
                             we construct your dreams."
                         </h1>
@@ -63,15 +45,15 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[550px] w-[400px]">
-                        <img src="image 7.jpg" alt="Example" className="w-[400px] h-[400px] rounded-t-2xl" />
+                <div className="flex flex-col items-center justify-center  mt-[-450px]">
+                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
+                        <img src="image 7.jpg" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
 
-                        <h3 className="text-2xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
+                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
                             Gated Communities
                         </h3>
 
-                        <h1 className="text-gray-700 text-2xl text-center mt-4">
+                        <h1 className="text-gray-700 text-xl text-center mt-4">
                             "From vision to reality,<br />
                             we construct your dreams."
                         </h1>
@@ -85,15 +67,15 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[550px] w-[400px]">
-                        <img src="image 8.png" alt="Example" className="w-[400px] h-[400px] rounded-t-2xl" />
+                <div className="flex flex-col items-center justify-center  mt-[-450px]">
+                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
+                        <img src="image 8.png" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
 
-                        <h3 className="text-2xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
+                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
                             Apartment Development
                         </h3>
 
-                        <h1 className="text-gray-700 text-2xl text-center mt-4">
+                        <h1 className="text-gray-700 text-xl text-center mt-4">
                             "From vision to reality,<br />
                             we construct your dreams."
                         </h1>
@@ -109,18 +91,18 @@ const HomePage = () => {
 
 
             </div>
-            <div className='grid grid-cols-3 gap-4  bg-white h-[800px] mt-[-50px]'>
+            <div className='grid grid-cols-3  bg-white h-[600px] mt-[-650px]'>
 
 
                 <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[550px] w-[400px]">
-                        <img src="image 9.png" alt="Example" className="w-[400px] h-[400px] rounded-t-2xl" />
+                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
+                        <img src="image 9.png" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
 
-                        <h3 className="text-2xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
+                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
                             Factory Construction
                         </h3>
 
-                        <h1 className="text-gray-700 text-2xl text-center mt-4">
+                        <h1 className="text-gray-700 text-xl text-center mt-4">
                             "From vision to reality,<br />
                             we construct your dreams."
                         </h1>
@@ -135,14 +117,14 @@ const HomePage = () => {
                 </div>
 
                 <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[550px] w-[400px]">
-                        <img src="image 10.png" alt="Example" className="w-[400px] h-[400px] rounded-t-2xl" />
+                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
+                        <img src="image 10.png" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
 
                         <h3 className="text-2xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
                             Renovation
                         </h3>
 
-                        <h1 className="text-gray-700 text-2xl text-center mt-4">
+                        <h1 className="text-gray-700 text-xl text-center mt-4">
                             "From vision to reality,<br />
                             we construct your dreams."
                         </h1>
@@ -157,14 +139,14 @@ const HomePage = () => {
                 </div>
 
                 <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[550px] w-[400px]">
-                        <img src="image 11.png" alt="Example" className="w-[400px] h-[400px] rounded-t-2xl" />
+                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
+                        <img src="image 11.png" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
 
-                        <h3 className="text-2xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
+                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
                             Map Projects
                         </h3>
 
-                        <h1 className="text-gray-700 text-2xl text-center mt-4">
+                        <h1 className="text-gray-700 text-xl text-center mt-4">
                             "From vision to reality,<br />
                             we construct your dreams."
                         </h1>
@@ -221,8 +203,8 @@ const HomePage = () => {
 
                 <div className="ml-90 mt-40">
                     <h1 className="font-light text-4xl">
-                        We are expert in this field<br />
-                        since almost 10 years.
+                       "We are expert in this field<br />
+                        since almost 10 years."
                     </h1>
                 </div>
                 <div className="flex items-center mt-10 mb-10 space-y-20 px-4">
@@ -275,6 +257,8 @@ const HomePage = () => {
             <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
                 <h3 className="text-6xl text-white font-bold">OUR  HAPPY CLIENTS </h3>
             </div>
+            <Header />
+            
 
         </>
     )
