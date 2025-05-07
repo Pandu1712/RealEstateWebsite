@@ -7,7 +7,7 @@ const HomePage = () => {
                 <ul className="flex space-x-[1.5vw] ml-[5vw]">
                     <li><a href="/" className="text-gray-700 font-semibold">Home</a></li>
                     <li><a href="/about" className="text-gray-700 font-semibold">About</a></li>
-                    <li><a href="/services" className="text-gray-700 font-semibold">Projects</a></li>
+                    <li><a href="/projects" className="text-gray-700 font-semibold">Projects</a></li>
                     <li><a href="/contact" className="text-gray-700 font-semibold">Service</a></li>
                     <li><a href="/career" className="text-gray-700 font-semibold">Career</a></li>
                 </ul>

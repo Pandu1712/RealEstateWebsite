@@ -7,7 +7,7 @@ const page = () => {
                 <ul className="flex space-x-[1.5vw] ml-[5vw]">
                     <li><a href="/" className="text-gray-700 font-semibold">Home</a></li>
                     <li><a href="/about" className="text-gray-700 font-semibold">About</a></li>
-                    <li><a href="/services" className="text-gray-700 font-semibold">Projects</a></li>
+                    <li><a href="/projects" className="text-gray-700 font-semibold">Projects</a></li>
                     <li><a href="/contact" className="text-gray-700 font-semibold">Service</a></li>
                     <li><a href="/career" className="text-gray-700 font-semibold">Career</a></li>
                 </ul>
@@ -135,7 +135,58 @@ const page = () => {
             <div className="bg-[#061F3E] w-full h-[10vh] mt-[10vh] flex items-center justify-center">
                 <h3 className="text-[5vh] text-white font-bold">OUR TEAM </h3>
             </div>
-            
+
+            <div className="relative w-full min-h-screen bg-white overflow-hidden">
+      {/* Background trapezoid shape */}
+      <div className="absolute top-0 left-0 w-full h-[500px] bg-[#074654] z-0 clip-diagonal" />
+
+      {/* Card container */}
+      <div className="relative z-10 flex flex-col items-center pt-[10vh]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[5vw] px-[5vw]">
+          {/* Card 1 */}
+          <div className="rounded-3xl shadow-2xl bg-white w-[300px] md:w-[350px] flex flex-col items-center">
+            <img
+              src="/image1.jpg"
+              alt="Card 1"
+              className="w-full h-[250px] object-cover rounded-t-3xl"
+            />
+            <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center py-2">
+              Building Construction
+            </h3>
+            <p className="text-gray-700 text-sm text-center px-4 mt-2">
+              "From vision to reality,<br /> we construct your dreams."
+            </p>
+            <a
+              href="/contact"
+              className="mt-4 mb-4 bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl"
+            >
+              View More
+            </a>
+          </div>
+
+          {/* Card 2 */}
+          <div className="rounded-3xl shadow-2xl bg-white w-[300px] md:w-[350px] flex flex-col items-center">
+            <img
+              src="/image2.jpg"
+              alt="Card 2"
+              className="w-full h-[250px] object-cover rounded-t-3xl"
+            />
+            <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center py-2">
+              Interior Design
+            </h3>
+            <p className="text-gray-700 text-sm text-center px-4 mt-2">
+              "Crafting comfort,<br /> inside every space."
+            </p>
+            <a
+              href="/contact"
+              className="mt-4 mb-4 bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl"
+            >
+              View More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
         </>
     )
