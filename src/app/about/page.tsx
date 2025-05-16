@@ -6,7 +6,7 @@ const page = () => {
             
 
             <div className="bg-[#061F3E] w-full h-[10vh] flex items-center justify-center mt-[10vh]">
-                <h3 className="text-[5vh] text-white font-bold">About Us </h3>
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold">About Us </h3>
             </div>
 
             <div className="relative w-full h-[100vh]">

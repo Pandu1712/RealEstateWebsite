@@ -1,267 +1,118 @@
-import React from 'react'
-import Client from '../components/client'
+import React from 'react';
+import Client from '../components/client';
 
 const HomePage = () => {
     return (
         <>
-           
-            <div className="relative w-full h-100px mt-[10vh]">
-                <img src="image 5.jpg" alt="Example" className="w-full h-[850px] object-cover" />
-
-                <div className="absolute top-[100px] left-0 w-full text-center bg-blur bg-opacity-40 backdrop-blur-lg p-4">
+            {/* Hero Section */}
+            <div className="relative w-full mt-[10vh]">
+                <img src="image 5.jpg" alt="Hero" className="w-full h-[850px] object-cover" />
+                <div className="absolute top-[100px] left-0 w-full text-center bg-opacity-40 backdrop-blur-lg p-4">
                     <h2 className="text-white text-3xl font-bold">
-                        "Where your dream home becomes<br />
-                        our blueprint for success."
+                        "Where your dream home becomes<br />our blueprint for success."
                     </h2>
                 </div>
             </div>
+
+            {/* Services Header */}
             <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
-                <h3 className="text-6xl text-white font-bold">OUR SERVICES</h3>
-            </div>
+  <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold">OUR SERVICES</h3>
+</div>
 
 
-            <div className='grid grid-cols-3 gap-1 bg-white  mt-[-10px] h-screen '>
-
-
-                <div className="flex flex-col items-center justify-center mt-[-450px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
-                        <img src="image 6.jpg" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
-
-                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-10px ">
-                            Building Construction
-                        </h3>
-
-                        <h1 className="text-gray-700 text-xl text-center mt-4">
-                            "From vision to reality,<br />
-                            we construct your dreams."
-                        </h1>
-
-
-                    </div>
-                    <div className="flex justify-center mt-[-20px]">
-                        <a href="/contact" className="bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl">
-                            View More
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col items-center justify-center  mt-[-450px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
-                        <img src="image 7.jpg" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
-
-                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
-                            Gated Communities
-                        </h3>
-
-                        <h1 className="text-gray-700 text-xl text-center mt-4">
-                            "From vision to reality,<br />
-                            we construct your dreams."
-                        </h1>
-
-
-                    </div>
-                    <div className="flex justify-center mt-[-20px]">
-                        <a href="/contact" className="bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl">
-                            View More
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col items-center justify-center  mt-[-450px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
-                        <img src="image 8.png" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
-
-                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
-                            Apartment Development
-                        </h3>
-
-                        <h1 className="text-gray-700 text-xl text-center mt-4">
-                            "From vision to reality,<br />
-                            we construct your dreams."
-                        </h1>
-
-
-                    </div>
-                    <div className="flex justify-center mt-[-20px]">
-                        <a href="/contact" className="bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl">
-                            View More
-                        </a>
-                    </div>
-                </div>
-
-
-            </div>
-            <div className='grid grid-cols-3  bg-white h-[600px] mt-[-650px]'>
-
-
-                <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
-                        <img src="image 9.png" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
-
-                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
-                            Factory Construction
-                        </h3>
-
-                        <h1 className="text-gray-700 text-xl text-center mt-4">
-                            "From vision to reality,<br />
-                            we construct your dreams."
-                        </h1>
-
-
-                    </div>
-                    <div className="flex justify-center mt-[-20px]">
-                        <a href="/contact" className="bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl">
-                            View More
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
-                        <img src="image 10.png" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
-
-                        <h3 className="text-2xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
-                            Renovation
-                        </h3>
-
-                        <h1 className="text-gray-700 text-xl text-center mt-4">
-                            "From vision to reality,<br />
-                            we construct your dreams."
-                        </h1>
-
-
-                    </div>
-                    <div className="flex justify-center mt-[-20px]">
-                        <a href="/contact" className="bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl">
-                            View More
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col items-center justify-center mt-[100px]">
-                    <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
-                        <img src="image 11.png" alt="Example" className="w-[350px] h-[200px] rounded-t-2xl" />
-
-                        <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center h-20px ">
-                            Map Projects
-                        </h3>
-
-                        <h1 className="text-gray-700 text-xl text-center mt-4">
-                            "From vision to reality,<br />
-                            we construct your dreams."
-                        </h1>
-
-
-                    </div>
-                    <div className="flex justify-center mt-[-20px]">
-                        <a href="/contact" className="bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl">
-                            View More
-                        </a>
-                    </div>
-                </div>
-
-
-            </div>
-            <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
-                <h3 className="text-6xl text-white font-bold">SUCCESS GROWTH</h3>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 bg-white py-10 px-4">
-                <div className="flex flex-col items-center justify-center bg-gradient-to-br from-[#3490DA] to-[#1C4D74] text-white rounded-full w-[300px] h-[300px] mx-auto">
-                    <img src="cal.png" alt="Icon" className="w-20 h-20 mb-2 " />
-                    <p className="text-center text-2xl font-semibold">20+<br />PROJECTS</p>
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-gradient-to-br from-[#3490DA] to-[#1C4D74] text-white rounded-full w-[300px] h-[300px] mx-auto">
-                    <img src="Vector.png" alt="Icon" className="w-16 h-16 mb-2 " />
-                    <p className="text-center text-2xl font-semibold">100+<br />GROWTH RATIO</p>
-                </div>
-                <div className="flex flex-col items-center justify-center bg-gradient-to-br from-[#3490DA] to-[#1C4D74] text-white rounded-full w-[300px] h-[300px] mx-auto">
-                    <img src="client.png" alt="Icon" className="w-16 h-16 mb-2 " />
-                    <p className="text-center text-2xl font-semibold">200+<br />HAPPY CLIENTS</p>
-                </div>
-                <div className="flex flex-col items-center justify-center bg-gradient-to-br from-[#3490DA] to-[#1C4D74] text-white rounded-full w-[300px] h-[300px] mx-auto">
-                    <img src="call.png" alt="Icon" className="w-16 h-16 mb-2" />
-                    <p className="text-center text-2xl font-semibold">ON TIME<br />DELIVERY</p>
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-gradient-to-br from-[#3490DA] to-[#1C4D74] text-white rounded-full w-[300px] h-[300px] mx-auto">
-                    <img src="Group.png" alt="Icon" className="w-30 h-30 mb-2 " />
-                    <p className="text-center text-2xl font-semibold">HIGH <br />QUALITY</p>
-                </div>
-            </div>
-
-            <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
-                <h3 className="text-6xl text-white font-bold">EXPERTISE PROJECTS </h3>
-            </div>
-
-
-            <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
-                <h3 className="text-6xl text-white font-bold">GET A QUOTE </h3>
-            </div>
-            <div className='mt-[-100px]'>
-
-
-                <div className="ml-90 mt-40">
-                    <h1 className="font-light text-4xl">
-                       "We are expert in this field<br />
-                        since almost 10 years."
-                    </h1>
-                </div>
-                <div className="flex items-center mt-10 mb-10 space-y-20 px-4">
-
-                    {/* Title */}
-
-
-                    {/* Image Grid Section */}
-                    {/* Image Grid Section */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ml-36 mt-24 ">
-                        <div className="flex flex-col items-center justify-center bg-white w-[400px] h-[200px] rounded-2xl shadow-md">
-                            <img src="Building.png" alt="Building 1" className="w-[80px] h-[80px] object-cover rounded-t-2xl" />
-                            <h2 className='font-light text-3xl mt-3'>Construction</h2>
+            {/* Services Section 1 */}
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4 bg-white py-10 px-4'>
+                {[
+                    { title: 'Building Construction', image: 'image 6.jpg' },
+                    { title: 'Gated Communities', image: 'image 7.jpg' },
+                    { title: 'Apartment Development', image: 'image 8.png' },
+                ].map((service, idx) => (
+                    <div key={idx} className="flex flex-col items-center">
+                        <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
+                            <img src={service.image} alt={service.title} className="w-[350px] h-[200px] rounded-t-2xl" />
+                            <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center py-2">
+                                {service.title}
+                            </h3>
+                            <p className="text-gray-700 text-xl text-center mt-4">
+                                "From vision to reality,<br />we construct your dreams."
+                            </p>
                         </div>
-                        <div className="flex flex-col items-center justify-center bg-white w-[400px] h-[200px] rounded-2xl shadow-md">
-                            <img src="House plan.png" alt="Building 2" className="w-[80px] h-[80px] object-cover rounded-t-2xl" />
-                            <h2 className='font-light text-3xl mt-3'>Planning</h2>
-                        </div>
-                        <div className="flex flex-col items-center justify-center bg-white w-[400px] h-[200px] rounded-2xl shadow-md">
-                            <img src="Skyline.png" alt="Building 3" className="w-[80px] h-[80px] object-cover rounded-t-2xl" />
-                            <h2 className='font-light text-3xl mt-3'>Buildings</h2>
-                        </div>
-                        <div className="flex flex-col items-center justify-center bg-white w-[400px] h-[200px] rounded-2xl shadow-md">
-                            <img src="San pedro church.png" alt="Building 4" className="w-[80px] h-[80px] object-cover rounded-t-2xl" />
-                            <h2 className='font-light text-3xl mt-3'>Architecture</h2>
+                        <div className="mt-4">
+                            <a href="/contact" className="bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl">
+                                View More
+                            </a>
                         </div>
                     </div>
+                ))}
+            </div>
 
-
-                    {/* Contact Form Section */}
-                    <div className="bg-[#2C4D60] w-full max-w-3xl rounded-2xl p-6 text-[#D9D9D9] font-bold ml-[100px] h-[550px] mt-[-50px]">
-                        <form className="flex flex-col space-y-4 mt-20">
-                            <div className="flex flex-col md:flex-row gap-4">
-                                <input type="text" placeholder="First Name" className="border-2 border-gray-300 rounded-md px-4 py-2 w-full h-16" />
-                                <input type="text" placeholder="Last Name" className="border-2 border-gray-300 rounded-md px-4 py-2 w-full" />
-                            </div>
-                            <div className="flex flex-col md:flex-row gap-4">
-                                <input type="text" placeholder="Contact Number" className="border-2 border-gray-300 rounded-md px-4 py-2 w-full h-16" />
-                                <input type="email" placeholder="Email ID" className="border-2 border-gray-300 rounded-md px-4 py-2 w-full" />
-                            </div>
-                            <textarea placeholder="Message" className="border-2 border-gray-300 rounded-md px-4 py-2 h-[200px] w-full"></textarea>
-                            <button type="submit" className="bg-[#3490DA] text-white px-6 py-2 hover:bg-[#163c5b] rounded-md w-max self-center">Submit</button>
-                        </form>
+            {/* Services Section 2 */}
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4 bg-white py-10 px-4'>
+                {[
+                    { title: 'Factory Construction', image: 'image 9.png' },
+                    { title: 'Renovation', image: 'image 10.png' },
+                    { title: 'Map Projects', image: 'image 11.png' },
+                ].map((service, idx) => (
+                    <div key={idx} className="flex flex-col items-center">
+                        <div className="border border-gray-300 rounded-3xl shadow-2xl bg-white h-[350px] w-[350px]">
+                            <img src={service.image} alt={service.title} className="w-[350px] h-[200px] rounded-t-2xl" />
+                            <h3 className="text-xl font-bold bg-[#DEF1FF] w-full text-center py-2">
+                                {service.title}
+                            </h3>
+                            <p className="text-gray-700 text-xl text-center mt-4">
+                                "From vision to reality,<br />we construct your dreams."
+                            </p>
+                        </div>
+                        <div className="mt-4">
+                            <a href="/contact" className="bg-[#1C4D74] text-white px-6 py-2 hover:bg-[#163c5b] rounded-2xl">
+                                View More
+                            </a>
+                        </div>
                     </div>
-
-                </div>
+                ))}
             </div>
 
-
+            {/* Success Growth */}
             <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
-                <h3 className="text-6xl text-white font-bold">OUR  HAPPY CLIENTS </h3>
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold">SUCCESS GROWTH</h3>
             </div>
-            <Client />
-            
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 bg-white py-10 px-4">
+                {[
+                    { icon: 'cal.png', label: '20+\nPROJECTS' },
+                    { icon: 'Vector.png', label: '100+\nGROWTH RATIO' },
+                    { icon: 'client.png', label: '200+\nHAPPY CLIENTS' },
+                    { icon: 'call.png', label: 'ON TIME\nDELIVERY' },
+                    { icon: 'Group.png', label: 'HIGH\nQUALITY' },
+                ].map((item, idx) => (
+                    <div key={idx} className="flex flex-col items-center justify-center bg-gradient-to-br from-[#3490DA] to-[#1C4D74] text-white rounded-full w-[250px] h-[250px] mx-auto">
+                        <img src={item.icon} alt="Icon" className="w-16 h-16 mb-2" />
+                        <p className="text-center text-2xl font-semibold whitespace-pre-line">{item.label}</p>
+                    </div>
+                ))}
+            </div>
 
+            {/* Expertise Projects */}
+            <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold">EXPERTISE PROJECTS</h3>
+            </div>
+
+            {/* Get a Quote */}
+            <div className="bg-[#061F3E] w-full h-[100px] mt-20 flex items-center justify-center">
+                <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold">GET A QUOTE</h3>
+            </div>
+
+            <div className='mt-10 px-4'>
+                <h1 className="font-light text-4xl text-center">
+                    "We are expert in this field<br />since almost 10 years."
+                </h1>
+            </div>
+
+            <div className="mt-10 px-4">
+                {/* Placeholder for quote form or additional content */}
+                <Client />
+            </div>
         </>
-    )
-}
+    );
+};
 
-export default HomePage 
+export default HomePage;
